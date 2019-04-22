@@ -1,5 +1,5 @@
 FROM node:7-onbuild
-LABEL maintainer "pluhin@gmail.com"
+LABEL maintainer "komlik.al@gmail.com" 
 WORKDIR /usr/src/app
 COPY  main.js app/
 COPY  package.json app/
